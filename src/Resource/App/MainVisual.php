@@ -2,10 +2,8 @@
 
 namespace Jingu\DonutCache\Resource\App;
 
-use BEAR\RepositoryModule\Annotation\CacheableResponse;
 use BEAR\Resource\ResourceObject;
 
-#[CacheableResponse]
 class MainVisual extends ResourceObject
 {
     public function onGet(): static
