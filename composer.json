@@ -11,7 +11,8 @@
         "bear/resource": "^1.16",
         "bear/sunday": "^1.5",
         "ray/aop": "^2.11",
-        "ray/di": "^2.13"
+        "ray/di": "^2.13",
+        "bear/query-repository": "dev-spike as 1.9.0"
     },
     "require-dev": {
         "bear/api-doc": "1.x-dev",
