@@ -10,7 +10,7 @@ class ProdModule extends AbstractAppModule
 {
     protected function configure()
     {
-        $this->install(new StorageRedisModule('127.0.0.1:6379'));
+//        $this->install(new StorageRedisModule('127.0.0.1:6379'));
         $this->install(new PackageProdModule());
     }
 }
